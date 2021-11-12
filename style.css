@@ -1,0 +1,225 @@
+/*
+============
+Fonts
+============
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&display=swap');
+
+body {	
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;    
+	background: #fff;
+	color: #191919;	
+}
+
+a {
+  display: inline-block;
+  transition: 0.2s all ease;
+  -webkit-transition: 0.2s all ease;
+  -moz-transition: 0.2s all ease;
+}
+
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-webkit-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-moz-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+/* scrollto-top */
+.scrolltotop {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px 20px 0 0;
+    background: rgba(0,0,0,.5);   
+    text-align: center;
+    padding-top: 8px;
+    font-size: 22px;
+    color: #ffffff;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    display: none;
+    transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    -moz-transition: 0.2s all ease;
+}
+
+.scrolltotop:hover {   
+    background: #000;
+    color: #fff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+}
+
+/* header-area */
+.header-area {
+    padding: 10px 0;
+}
+
+.navbar-nav li {
+    padding: 10px 15px;
+}
+
+.navbar-nav li a {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #000000;
+    transition: 0.2s all ease;
+}
+
+.navbar-nav li a:hover {
+    opacity: 0.8;
+}
+
+/* hamburger-area */
+.hamburger {
+  display: inline-block;
+  cursor: pointer;
+  transition-property: opacity, filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible;
+  outline: none!important;
+}
+
+.hamburger:hover {
+    opacity: 0.7; 
+}
+
+.hamburger.is-active:hover {
+    opacity: 0.7; 
+}
+
+.hamburger.is-active 
+.hamburger-inner,
+.hamburger.is-active 
+.hamburger-inner::before,
+.hamburger.is-active 
+.hamburger-inner::after {
+    background-color: #000; 
+}
+
+.hamburger-box {
+    width: 40px;
+    height: 24px;
+    display: inline-block;
+    position: relative;  
+}
+
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: -2px;
+}
+
+.hamburger-inner, 
+.hamburger-inner::before, 
+.hamburger-inner::after {
+    width: 40px;
+    height: 4px;
+    background-color: #000;
+    border-radius: 4px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    outline: none;
+    transition-timing-function: ease;
+}
+
+.hamburger-inner::before, 
+.hamburger-inner::after {
+    content: "";
+    display: block;
+    outline: none; 
+}
+
+.hamburger-inner::before {
+    top: -10px; 
+}
+
+.hamburger-inner::after {
+    bottom: -10px; 
+}
+
+.hamburger--collapse 
+.hamburger-inner {
+    top: auto;
+    bottom: 0;
+    outline: none;
+    transition-duration: 0.13s;
+    transition-delay: 0.13s;
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); 
+}
+
+.hamburger--collapse 
+.hamburger-inner::after {
+    top: -20px;
+    transition: top 0.2s 0.2s 
+    cubic-bezier(0.33333, 0.66667, 0.66667, 1), 
+    opacity 0.1s linear; 
+}
+
+.hamburger--collapse 
+.hamburger-inner::before {
+    transition: top 0.12s 0.2s 
+    cubic-bezier(0.33333, 0.66667, 0.66667, 1), 
+    transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19); 
+}
+
+.hamburger--collapse.is-active 
+.hamburger-inner {
+    transform: translate3d(0, -10px, 0) rotate(-45deg);
+    transition-delay: 0.22s;
+    outline: none;
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); 
+}
+
+.hamburger--collapse.is-active 
+.hamburger-inner::after {
+    top: 0;
+    opacity: 0;
+    transition: top 0.2s 
+    cubic-bezier(0.33333, 0, 0.66667, 0.33333), 
+    opacity 0.1s 0.22s linear; 
+}
+
+.hamburger--collapse.is-active 
+.hamburger-inner::before {
+    top: 0;
+    transform: rotate(-90deg);
+    transition: top 0.1s 0.16s
+    cubic-bezier(0.33333, 0, 0.66667, 0.33333), 
+    transform 0.13s 0.25s 
+    cubic-bezier(0.215, 0.61, 0.355, 1); 
+}
+
