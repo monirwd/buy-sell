@@ -9,7 +9,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;    
-	background: #fff;
+	background: #F8F6FF;
 	color: #191919;	
 }
 
@@ -76,16 +76,21 @@ ul {
 
 /* header-area */
 .header-area {
+    background: linear-gradient(to bottom, #F7F5FF, #EDE9FD);
     padding: 10px 0;
 }
 
+.navbar-brand img {
+    max-width: 230px;
+}
+
 .navbar-nav li {
-    padding: 10px 15px;
+    padding: 10px 30px;
 }
 
 .navbar-nav li a {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     color: #000000;
     transition: 0.2s all ease;
@@ -94,6 +99,36 @@ ul {
 .navbar-nav li a:hover {
     opacity: 0.8;
 }
+
+.navbar-btn li {
+    padding: 10px 10px;
+}
+
+.navbar-btn li a {
+    width: 126px;
+    background: #FFFFFF;
+    color: #6F47FF;
+    display: inline-block;
+    text-align: center;
+    padding: 13px 15px;
+    border-radius: 10px;
+}
+
+.navbar-btn li #active,
+.navbar-btn li a:hover {
+    background: #6F47FF;
+    color: #FFF;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
 
 /* hamburger-area */
 .hamburger {
