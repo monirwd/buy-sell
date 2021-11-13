@@ -546,6 +546,7 @@ chose-area start
 
 .chose-item:hover {
     border-color: #6F47FF;
+    box-shadow: 0 10px 15px #EEE9FF;
 }
 
 .chose-item img {
@@ -582,3 +583,90 @@ chose-area start
     padding-left: 10px;
     padding-right: 10px;
 }
+
+/*==================
+work-area start 
+====================*/
+.work-area {
+    padding: 70px 0;
+}
+
+.work-item {
+    background: #FCFBFF;
+    padding: 45px 30px 40px;
+    text-align: center;
+    border: 2px solid #FFF;
+    border-radius: 18px;
+    margin: 30px 14px 0;
+}
+
+.work-item img {
+    max-width: 65px;
+}   
+
+.work-item h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #000000;
+    margin: 20px 0 16px;
+}
+
+.work-item p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #747080;
+    margin-bottom: 0;
+}
+
+.work-main {
+    padding-top: 200px;
+    position: relative;
+}
+
+.work2 {
+    margin-top: -100px;
+}
+
+.work-main .line1 {
+    max-width: 526px;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+.work-main .line2 {
+    max-width: 345px;
+    position: absolute;
+    top: 45px;
+    right: 245px;
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1340px) {
+
+    .work-item {
+        padding: 40px 25px;
+        margin: 30px 0;
+    }
+
+    .work2 {
+        margin-top: -100px;
+    }
+
+    .work-main .line1 {
+        max-width: 450px;
+        position: absolute;
+        top: 50px;
+        left: 160px;
+    }
+
+    .work-main .line2 {
+        max-width: 300px;
+        position: absolute;
+        top: 52px;
+        right: 175px;
+    }
+}
+
+/*==================
+plan-area start 
+====================*/

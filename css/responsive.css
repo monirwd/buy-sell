@@ -166,6 +166,46 @@ Medium Screen - Others
         padding: 40px 30px;
     }
 
+    .work-item {
+        padding: 30px 10px;
+        margin: 30px 0 0;
+    }
+
+    .work-main {
+        padding-top: 142px;
+    }
+
+    .work2 {
+        margin-top: -65px;
+    }
+
+    .work-main .line1 {
+        max-width: 360px;
+        position: absolute;
+        top: 28px;
+        left: 66px;
+    }
+
+    .work-main .line2 {
+        max-width: 254px;
+        position: absolute;
+        top: 31px;
+        right: 132px;
+    }
+
+    .work-item h4 {
+        font-size: 21px;
+    }
+
+    .work-item p {
+        font-size: 16px;
+    }
+
+    .work-item img {
+        max-width: 60px;
+    }
+
+
 
 
 
@@ -232,6 +272,33 @@ Small Screen - Tablate
         padding: 50px 0;
     }
 
+    .work-item {
+        margin: 30px 0 0;
+        padding: 35px 20px;
+    }
+
+    .work-main {
+        padding-top: 0;
+    }
+
+    .work-main .line1 {
+        display: none;
+    }
+
+    .work-main .line2 {
+        display: none;
+    }
+
+    .work-item h4 {
+        font-size: 21px;
+    }
+
+    .work-item p {
+        font-size: 15.5px;
+    }
+
+
+
 
 
     
@@ -239,11 +306,6 @@ Small Screen - Tablate
 
 
     
-
-
-
-
-
 
 
 
@@ -360,11 +422,33 @@ Small Screen - Mobile
     .chose-upper p {
         font-size: 18px;
     }
+    
+    .work-item {
+        margin: 30px 0 0;
+        padding: 35px 20px;
+    }
+
+    .work-main {
+        padding-top: 0;
+    }
+
+    .work-main .line1 {
+        display: none;
+    }
+
+    .work-main .line2 {
+        display: none;
+    }
+
+    .work-item h4 {
+        font-size: 22px;
+    }
+
+    .work-item p {
+        font-size: 16px;
+    }
 
    
-
-
-
 
 
 
