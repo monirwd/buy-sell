@@ -77,7 +77,7 @@ header-area
 =================*/
 .header-area {
     background: linear-gradient(to bottom, #F7F5FF, #EDE9FD);
-    padding: 10px 0;
+    padding-top: 10px;
 }
 
 .navbar-brand img {
@@ -318,7 +318,188 @@ header-area
     max-width: 100%;
 }
 
+.banner-part {
+    background: #F9F8FE;
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 11px 11px 0 0;
+}
 
+.banner-part span {
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 50px;
+}
 
+.banner-part .orange-red {
+    font-size: 14px;
+    font-weight: 500;
+    color: #FA6800;
+    background: #FAF1F2;
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 50px;
+}
 
+.banner-part .info {
+    font-size: 14px;
+    font-weight: 500;
+    color: #008DE4;
+    background: #EDF2FE;
+}
+
+.banner-part .yellow {
+    color: #FF9416;
+    background: #F9F3F3;
+}
+
+.banner-part .blue {
+    color: #547FEF;
+    background: #F0F1FE;
+}
+
+.banner-part .black {
+    color: #23292F;
+    background: #EDEDF3;
+}
+
+.banner-part h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #000000;
+    margin: 12px 0 6px;
+}
+
+.banner-part p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B1A4;
+    margin-bottom: 0;
+}
+
+.banner-part .red {
+    color: #FC6360;
+}
+
+/*===================
+invest-area start
+=====================*/
+.invest-area {
+    background: linear-gradient(to left,#F8F6FF, #E9E4FF, #F8F6FF);
+    padding: 70px 0;
+}
+
+.invest-left img {
+    max-width: 65px;
+}
+
+.invest-left h4 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 24px 0 20px;
+}
+
+.invest-left p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 30px 0 50px;
+}
+
+.invest-left a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.invest-left a i {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.invest-left {
+    background: linear-gradient(to bottom, #6F47FF, #5937D1);
+    padding: 50px 30px;
+    border-radius: 15px;
+    margin-right: 16px;
+}
+
+.invest-mdl {
+    background: linear-gradient(to bottom, #F4F2FF, #FCFBFF);
+    padding: 30px 30px;
+    border: 2px solid #FFF;
+    border-radius: 16px;
+    margin-right: 12px;
+}
+
+.invest-mdl h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #6F47FF;
+}
+
+.invest-mdl h2 {
+    font-size: 35px;
+    font-weight: 400;
+    color: #000000;
+    margin: 20px 0;
+}
+
+.invest-mdl p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #747080;
+    margin: 30px 0;
+}
+
+.invest-mdl .italic {
+    color: #000;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.invest-mdl a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background: #6F47FF;
+    padding: 14px 30px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.invest-mdl a i {
+    font-size: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.invest-mdl a:hover {
+    opacity: 0.8;
+}
+
+.invest-main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 32% 42% 26%); 
+}
+
+.invest-right img {
+    max-width: 100%;
+}
+
+/*=================
+chose-area start
+===================*/
 

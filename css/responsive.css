@@ -14,6 +14,30 @@ Wide Screen - Laptop
         margin: 25px 0 45px;
     }
 
+    .invest-left {
+        padding: 40px 20px;
+    }
+
+    .invest-left h4 {
+        font-size: 36px;
+    }
+
+    .invest-left p {
+        font-size: 17px;
+    }
+
+    .invest-mdl {
+        padding: 30px 20px;
+    }
+    
+    .invest-mdl h2 {
+        font-size: 32px;
+    }
+
+    .invest-mdl p {
+        font-size: 17px;
+    }
+
     
 
 
@@ -79,6 +103,58 @@ Medium Screen - Others
         padding: 55px 0;
     }
 
+    .banner-part p {
+        font-size: 13px;
+    }
+
+    .banner-part h4 {
+        font-size: 21px;
+    }
+
+    .banner-part span {
+        font-size: 13px;
+    }
+
+    .invest-left {
+        padding: 40px 15px;
+    }
+
+    .invest-left h4 {
+        font-size: 30px;
+    }
+
+    .invest-left p {
+        font-size: 16px;
+    }
+
+    .invest-mdl {
+        padding: 30px 20px;
+    }
+    
+    .invest-mdl h2 {
+        font-size: 26px;
+    }
+
+    .invest-mdl p {
+        font-size: 15px;
+        margin: 20px 0;
+    }
+
+    .invest-mdl a {
+        margin-top: 20px;
+        font-size: 16px;
+        padding: 12px 16px;
+    }
+
+    .invest-left a {
+        font-size: 16px;
+    }
+
+    .invest-area {
+        padding: 60px 0;
+    }
+
+
 
 
 
@@ -121,6 +197,33 @@ Small Screen - Tablate
         margin: 25px 0 45px;
     }
 
+    .banner-part {
+        justify-content: flex-start;
+        border-radius: 16px 16px 0 0;
+    }
+
+    .banner-part > div {
+        width: 25%;
+        padding: 15px 10px;
+    }
+
+    .invest-main {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 30px;
+    }
+
+    .invest-mdl,
+    .invest-left {
+        padding: 40px 40px;
+    }
+
+    .invest-area {
+        padding: 60px 0;
+    }
+
+    
 
 
 
@@ -179,6 +282,63 @@ Small Screen - Mobile
     .hero-left ul li a i {
         margin-left: 20px;
     }
+
+    .banner-part > div {
+        width: 50%;
+        padding: 15px 10px;
+    }
+
+    .banner-part p {
+        font-size: 14.5px;
+    }
+
+    .banner-part h4 {
+        font-size: 21px;
+    }
+
+    .invest-main {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
+
+    .invest-left {
+        padding: 30px 16px;;
+    }
+
+    .invest-left h4 {
+        font-size: 34px;
+    }
+
+    .invest-left p {
+        font-size: 17.5px;
+        margin: 20px 0 40px;
+    }
+
+    .invest-mdl {
+        padding: 30px 15px;;
+    }
+
+    .invest-mdl h2 {
+        font-size: 23.5px;
+    }
+
+    .invest-mdl p {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+
+    .invest-left a,
+    .invest-mdl a {
+        font-size: 16px;
+    }
+
+    .invest-area {
+        padding: 50px 0;
+    }
+
+   
 
 
 
