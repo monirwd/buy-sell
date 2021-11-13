@@ -38,6 +38,10 @@ Wide Screen - Laptop
         font-size: 17px;
     }
 
+    .invest-main::after {
+        width: 1050px;
+    }
+
     
 
 
@@ -150,16 +154,17 @@ Medium Screen - Others
         font-size: 16px;
     }
 
-    .invest-area {
-        padding: 60px 0;
+    .invest-main::after {
+        width: 850px;
     }
 
+    .invest-main {
+        padding: 50px 0;
+    }
 
-
-
-
-
-
+    .chose-item {
+        padding: 40px 30px;
+    }
 
 
 
@@ -219,15 +224,21 @@ Small Screen - Tablate
         padding: 40px 40px;
     }
 
-    .invest-area {
-        padding: 60px 0;
+    .invest-main::after {
+        width: 650px;
     }
+
+    .invest-main {
+        padding: 50px 0;
+    }
+
+
 
     
 
 
 
-
+    
 
 
 
@@ -334,8 +345,20 @@ Small Screen - Mobile
         font-size: 16px;
     }
 
-    .invest-area {
+    .invest-main::after {
+        width: 300px;
+    }
+
+    .invest-main {
         padding: 50px 0;
+    }
+
+    .chose-upper h2 {
+        font-size: 40px;
+    }
+
+    .chose-upper p {
+        font-size: 18px;
     }
 
    
