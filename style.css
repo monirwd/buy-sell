@@ -731,7 +731,26 @@ plan-area start
     align-items: center;
     justify-content: space-between;
     padding: 10px 0;
+    position: relative;
+    padding-left: 36px;
 }
+
+.plan-item ul li::before {
+    content: "";
+    width: 30px;
+    height: 15px;
+    background-image: url(images/check.png);
+    background-size: 23px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: -5px;
+}
+
+.plan-item ul li svg {
+    fill:#30B1A4;
+    max-width: 40px;
+  }
 
 .plan-item a {
     font-size: 18px;
@@ -750,4 +769,12 @@ plan-area start
 .plan-item:hover a{
     background: #6F47FF;
     color: #FFF;
+}
+
+.plan-area2 {
+    padding: 70px 0;
+}
+
+.plan-area3 {
+    padding: 25px 0;
 }

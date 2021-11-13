@@ -314,7 +314,13 @@ Small Screen - Tablate
     }
 
     .plan-item ul li {
-        font-size: 16.5px;
+        font-size: 16px;
+        padding-left: 30px;
+    }
+
+    .plan-item ul li::before {
+        background-size: 20px;
+        left: -8px;
     }
 
 
@@ -485,7 +491,12 @@ Small Screen - Mobile
     }
 
     .plan-item ul li {
-        font-size: 16.5px;
+        font-size: 16px;
+        padding-left: 32px;
+    }
+
+    .plan-item ul li::before {
+        background-size: 21px;
     }
 
     .plan-area {
