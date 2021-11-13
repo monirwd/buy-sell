@@ -1,9 +1,92 @@
 /*
 ====================================
+Wide Screen - Laptop
+====================================
+*/
+@media screen and (min-width: 1201px) and (max-width: 1450px) {
+
+    .hero-left h2 {
+        font-size: 76px;
+    }
+
+    .hero-left p {
+        font-size: 18px;
+        margin: 25px 0 45px;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
 Medium Screen - Others
 ====================================
 */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .navbar-brand img {
+        max-width: 180px;
+    }
+    
+    .navbar-nav li {
+        padding: 10px 15px;
+    } 
+
+    .navbar-btn li {
+        padding: 10px 0px;
+        padding-left: 12px;
+    }
+
+    .navbar-nav li a {
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #000000;
+        transition: 0.2s all ease;
+    }
+
+    .navbar-btn li a {
+        width: 100px;
+        padding: 13px 10px;
+    }
+
+    .hero-left h2 {
+        font-size: 56px;
+    }
+
+    .hero-left p {
+        font-size: 18px;
+        margin: 25px 0 45px;
+    }
+
+    .hero-left p br {
+        display: none;
+    }
+
+    .hero-part {
+        padding: 55px 0;
+    }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -21,6 +104,25 @@ Small Screen - Tablate
 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
+    .navbar-nav li {
+        padding: 10px 10px;
+    } 
+
+    .hero-left {
+        margin-top: 70px;
+    }
+
+    .hero-left h2 {
+        font-size: 80px;
+    }
+
+    .hero-left p {
+        font-size: 18px;
+        margin: 25px 0 45px;
+    }
+
+
+
 
 
 
@@ -33,14 +135,50 @@ Small Screen - Tablate
 
 }
 
-
-
 /*
 ====================================
 Small Screen - Mobile
 ====================================
 */
 @media screen and (max-width: 767px) {
+
+    .navbar-brand img {
+        max-width: 200px;
+    } 
+
+    .navbar-nav li {
+        padding: 10px 10px;
+    } 
+
+    .hero-left {
+        margin-top: 50px;
+    }
+
+    .hero-left h2 {
+        font-size: 46px;
+    }
+
+    .hero-left p {
+        font-size: 18px;
+        margin: 24px 0 42px;
+    }
+
+    .hero-left p br {
+        display: none;
+    }
+
+    .hero-part {
+        padding: 50px 0;
+    }
+
+    .hero-left ul li a {
+        font-size: 17px;
+        padding: 12px 20px;
+    }
+
+    .hero-left ul li a i {
+        margin-left: 20px;
+    }
 
 
 
