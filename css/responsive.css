@@ -297,6 +297,26 @@ Small Screen - Tablate
         font-size: 15.5px;
     }
 
+    .plan-item {
+        padding: 30px 20px 25px;
+    }
+
+    .plan-title h4 {
+        font-size: 42px;
+    }
+
+    .plan-ttlcnt h6 {
+        font-size: 21px;
+    }
+
+    .plan-ttlcnt {
+        margin-left: 20px;
+    }
+
+    .plan-item ul li {
+        font-size: 16.5px;
+    }
+
 
 
 
@@ -422,7 +442,7 @@ Small Screen - Mobile
     .chose-upper p {
         font-size: 18px;
     }
-    
+
     .work-item {
         margin: 30px 0 0;
         padding: 35px 20px;
@@ -448,6 +468,29 @@ Small Screen - Mobile
         font-size: 16px;
     }
 
+    .plan-item {
+        padding: 30px 20px 25px;
+    }
+
+    .plan-title h4 {
+        font-size: 42px;
+    }
+
+    .plan-ttlcnt h6 {
+        font-size: 21px;
+    }
+
+    .plan-ttlcnt {
+        margin-left: 20px;
+    }
+
+    .plan-item ul li {
+        font-size: 16.5px;
+    }
+
+    .plan-area {
+        padding: 15px 0;
+    }
    
 
 
