@@ -778,3 +778,125 @@ plan-area start
 .plan-area3 {
     padding: 25px 0;
 }
+
+/*====================
+static-area start
+======================*/
+.static-area {
+    padding: 70px 0;
+}
+
+.static-main {
+    background: #FCFBFF;
+    padding: 50px 40px 40px;
+    border: 2px solid #FFF;
+    border-radius: 15px;
+}
+
+.static-number {
+    padding: 36px 0 82px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 16px;
+}
+
+.number-item {
+    background: #FFF;
+    padding: 40px 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.number-item h4 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.number-item p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #747080;
+    margin-bottom: 0;
+}
+
+.deposit-item h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #6F47FF;
+    margin-bottom: 25px;
+}
+
+.deposit-item ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #747080;
+}
+
+.deposit-item ul li span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.deposit-item ul li span small {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    display: inline-block;
+    text-align: center;
+    background: #F11A1A;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.deposit-item ul .depo-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.deposit-item {
+    width: 320px;
+}
+
+.depo2 {
+    margin: 0 auto;
+    position: relative;
+}
+
+.depo3 {
+    margin-left: auto;
+}
+
+.depo2::before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    display: block;
+    background:#F1F1F1;
+    position: absolute;
+    top: 0;
+    left: -38%;
+}
+
+.depo2::after {
+    content: "";
+    width: 1px;
+    height: 100%;
+    display: block;
+    background:#F1F1F1;
+    position: absolute;
+    top: 0;
+    right: -38%;
+}

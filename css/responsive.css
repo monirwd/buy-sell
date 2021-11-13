@@ -42,6 +42,19 @@ Wide Screen - Laptop
         width: 1050px;
     }
 
+    .number-item h4 {
+        font-size: 32px;
+    }
+
+    .number-item p {
+        font-size: 16px;
+    }
+
+    .depo2::before,
+    .depo2::after {
+        display: none;
+    }
+
     
 
 
@@ -205,6 +218,32 @@ Medium Screen - Others
         max-width: 60px;
     }
 
+    .static-number {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+
+    .depo2::before,
+    .depo2::after {
+        display: none;
+    }
+
+    .deposit-item {
+        width: 250px;
+    }
+
+    .deposit-item h4 {
+        font-size: 21px;
+        margin-bottom: 18px;
+    }
+
+    .deposit-item ul .depo-title,
+    .deposit-item ul li,
+    .deposit-item ul li span {
+        font-size: 16px;
+    }
+
+   
+
 
 
 
@@ -321,6 +360,65 @@ Small Screen - Tablate
     .plan-item ul li::before {
         background-size: 20px;
         left: -8px;
+    }
+
+    .static-main {
+        padding: 40px 30px 30px;
+    }
+
+    .number-item h4 {
+        font-size: 32px;
+    }
+
+    .number-item p {
+        font-size: 16px;
+    }
+
+    .static-number {
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+
+    .number-item {
+        padding: 40px 20px;
+    }
+
+    .depo2::before,
+    .depo2::after {
+        display: none;
+    }
+
+    .deposit-item {
+        width: 250px;
+    }
+
+    .deposit-item h4 {
+        font-size: 21px;
+        margin-bottom: 18px;
+    }
+
+    .deposit-item ul .depo-title,
+    .deposit-item ul li,
+    .deposit-item ul li span {
+        font-size: 16px;
+    }
+
+    .depo3 {
+        margin-left: 0;
+        margin-top: 35px;
+    }
+
+    .static-upper h2 {
+        font-size: 46px;
+    }
+
+    .static-upper p {
+        font-size: 18px;
+    }
+
+    .static-upper p br {
+        display: none;
+
     }
 
 
@@ -502,7 +600,46 @@ Small Screen - Mobile
     .plan-area {
         padding: 15px 0;
     }
-   
+
+    .static-main {
+        padding: 40px 16px 30px;
+    }
+
+    .static-number {
+        grid-template-columns: 1fr; 
+        padding: 30px 0;
+    }
+
+    .static-upper h2 {
+        font-size: 32px;
+    }
+
+    .static-upper p {
+        font-size: 16.5px;
+    }
+
+    .deposit-part {
+        padding: 0 5px;
+    }
+
+    .depo2::before,
+    .depo2::after {
+        display: none;
+    }
+
+    .deposit-item {
+        width: 100%;
+    }
+
+    .depo3,
+    .depo2,
+    .deposit-item {
+        margin-left: 0;
+        margin-top: 35px;
+    }
+
+
+
 
 
 
