@@ -345,6 +345,23 @@ Medium Screen - Others
         margin: 15px 0;
     }
 
+    .blog-item {
+        margin: 0;
+    }
+
+    .blog-item h4 {
+        font-size: 22px;
+    }
+
+    .blog-item p {
+        font-size: 17px;
+    }
+
+    .blog-main {
+        padding: 36px 0;
+    }
+    
+
    
 
 
@@ -571,9 +588,33 @@ Small Screen - Tablate
         margin: 15px 0;
     }
 
+    .blog-area {
+        padding: 20px 0;
+    }
 
-    
+    .blog-upper {
+        display: block;
+    }
 
+    .uper-rit a {
+        margin-top: 20px;
+    }
+
+    .blog-item {
+        margin: 22px 0;
+    }
+
+    .blog-item h4 {
+        font-size: 22px;
+    }
+
+    .blog-item p {
+        font-size: 17px;
+    }
+
+    .blog-main {
+        padding: 36px 0;
+    }
 
 
 
@@ -872,6 +913,44 @@ Small Screen - Mobile
     .review-item1 {
         margin-bottom: 20px;
     }
+
+
+
+
+
+
+    .blog-area {
+        padding: 10px 0;
+    }
+
+    .blog-upper {
+        display: block;
+    }
+
+    .uper-rit a {
+        margin-top: 20px;
+    }
+
+    .blog-item {
+        margin: 22px 0;
+    }
+
+    .blog-item h4 {
+        font-size: 22px;
+    }
+
+    .blog-item p {
+        font-size: 17px;
+    }
+
+    .blog-main {
+        padding: 36px 0;
+    }
+
+    .uper-left h4 {
+        font-size: 40px;
+    }
+
 
 
 
