@@ -686,6 +686,10 @@ Small Screen - Tablate
         margin-top: 80px;
     }
 
+    .footer-area {
+        margin-top: -120px;
+    }
+
 
 
     
@@ -1126,17 +1130,17 @@ Small Screen - Mobile
         width: 100%;
     }
 
+    .contact-right button {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+    .footer-item h4 {
+        margin-top: 36px;
+    }
 
-
-
-
-
-
-
-
-
-
-
+    .footer-item .fot-itm2 {
+        margin-bottom: 85px;
+    }
 
 }
