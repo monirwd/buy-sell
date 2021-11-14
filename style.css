@@ -1179,3 +1179,110 @@ blog-area start
     margin-left: 15px;
     vertical-align: middle;
 }
+
+/*================
+faq-area start
+==================*/
+.faq-area {
+    padding: 20px 0;
+}
+
+.faq-main {
+    padding: 10px 0;
+}
+
+.faq-upper h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #000;
+}
+
+.faq-upper p {
+    font-weight: 500;
+    font-size: 20px;
+    color: #747080;
+    margin-top: 20px;
+}
+
+.faq-item {
+    max-width: 650px;
+}
+
+/* accordian */
+.ziehharmonika h3 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #000000;
+    text-align: left;
+    cursor: pointer;
+    margin: 40px 0;
+    padding-right: 120px;
+    transition: 0.25s all;
+    position: relative;    
+}
+
+.ziehharmonika h3:last-of-type {
+    border-bottom: none;
+}
+
+.ziehharmonika h3.active {
+    margin-bottom: 15px;
+}
+
+.ziehharmonika h3::before {
+    content: attr(data-prefix);
+    font-size: 18px;
+    margin-right: 0px;
+}
+
+.ziehharmonika h3.alignLeft {
+    padding-left: 35px;
+}
+
+.ziehharmonika > div {
+    display: none;
+    background: #FCFBFF;
+    text-align: left;
+    padding: 25px 24px;
+    margin-bottom: 9px;
+    border: 2px solid #FFF;
+    border-radius: 20px;
+}
+
+.ziehharmonika > div:last-of-type {
+    border-bottom: none;
+}
+
+.ziehharmonika > div p {
+    font-size: 18px;
+    color: #747080;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.ziehharmonika .arrowDown {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 13.0px 7.5px 0 7.5px;
+    border-color: #272e35 transparent transparent transparent;
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    transition: 0.25s all;
+    opacity: 0;
+}
+
+.ziehharmonika .collapseIcon {
+    position: absolute;
+    right: 20px;
+    top: 45%;
+    font-size: 25px;
+    font-weight: 300;
+    -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+}
+.ziehharmonika .collapseIcon.alignLeft {
+    right: initial;
+    left: 20px;
+}

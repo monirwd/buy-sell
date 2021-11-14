@@ -28,6 +28,11 @@
 			});
 		};
 
+		$('.ziehharmonika').ziehharmonika({
+			collapsible: true,
+
+		});
+
 
 
 
