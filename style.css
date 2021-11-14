@@ -1286,3 +1286,221 @@ faq-area start
     right: initial;
     left: 20px;
 }
+
+/*======================
+contact-area start
+========================*/
+.contact-area {
+    padding: 70px 0;
+}
+
+.contact-left {
+    background: linear-gradient(to bottom, #6F47FF, #5C39DA);
+    padding: 2px 35px;
+    border-radius: 15px;
+    max-width: 520px;
+}
+
+.contact-item h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.contact-item p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    margin-top: 22px;
+}
+
+.contact-item {
+    margin: 40px 0;
+    max-width: 300px;
+}
+
+.contact-item ul li {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+.contact-item ul li i {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-icon ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.social-icon ul li a i {
+    margin-right: 0;
+}
+
+.social-icon ul li a {
+    width: 60px;
+    height: 60px;
+    background: #FFFFFF;
+    color: #7046FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+.contact-right h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.contact-right p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #747080;
+    margin: 21px 0;
+}
+
+.contact-right input,
+.contact-right textarea {
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    background: #FFFFFF;
+    padding: 15px 18px;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    resize: none;
+    outline: none;
+}
+
+.contact-right input:focus {
+    color: #6F47FF;
+    border-color: #6F47FF;
+    opacity: 1;
+}
+
+.contact-right input::placeholder {
+    opacity: 1!important;
+}
+
+.contact-right button {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #6F47FF;
+    display: block;
+    width: 200px;
+    padding: 14px 15px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-top: 40px;
+    transition: 0.2s all ease;
+    box-shadow: 0px 12px 24px rgba(111, 71, 255, 0.2);
+}
+
+.contact-right button i {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 16px;
+    vertical-align: middle;
+}
+
+.contact-right button:hover {
+    opacity: 0.9;
+}
+
+.contact-main {
+    background: #F4F0FF;
+    padding: 40px 40px;
+    border: 2px solid #FFF;
+    border-radius: 15px;
+}
+
+.subscribe-part {
+    background: #6F47FF;
+    padding: 40px 30px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.subs-left {
+    width: 42%;
+}
+
+.subs-right {
+    width: 58%;
+}
+
+.subs-left h4 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.subs-left p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.subs-right form {
+    background: #FFFFFF;
+    position: relative;
+    padding: 10px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subs-right input {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    display: block;
+    width: 72%;
+    padding: 12px 12px;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.subs-right button {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #6F47FF;
+    padding: 13px 18px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: 0.2s all ease;
+    box-shadow: 0px 12px 24px rgba(111, 71, 255, 0.2);
+}
+
+.subs-right button i {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 12px;
+    vertical-align: middle;
+}

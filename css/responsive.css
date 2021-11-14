@@ -95,6 +95,10 @@ Wide Screen - Laptop
         padding: 20px 0;
     }
 
+    .subs-right input {
+        width: 69%;
+    }
+
     
 
 
@@ -365,6 +369,38 @@ Medium Screen - Others
         font-size: 22px;
         padding-right: 80px;
     }
+
+    .contact-area {
+        padding: 45px 0;
+    }
+
+    .subscribe-part {
+        margin-top: 85px;
+    }
+
+    .social-icon ul li a {
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    .contact-left {
+        padding: 8px 20px;
+    }
+
+    .contact-item {
+        margin: 25px 0;
+    }
+
+    .subs-left h4 {
+        font-size: 40px;
+    }
+
+    .subs-right input {
+        width: 56%;
+    }
+
     
 
    
@@ -621,10 +657,34 @@ Small Screen - Tablate
         padding: 36px 0;
     }
 
+    .subscribe-part {
+        display: block;
+    }
 
+    .contact-right {
+        margin-top: 35px;
+    }
 
+    .subs-left,
+    .subs-right {
+        width: 100%;
+    }
 
-    
+    .subs-right input {
+        width: 65%;
+    }
+
+    .subs-right form {
+        margin-top: 25px;
+    }
+
+    .contact-area {
+        padding: 30px 0;
+    }
+
+    .subscribe-part {
+        margin-top: 80px;
+    }
 
 
 
@@ -980,6 +1040,90 @@ Small Screen - Mobile
 
     .faq-area {
         padding: 10px 0;
+    }
+
+
+
+    .contact-main {
+        padding: 20px 15px;
+    }
+
+    .subscribe-part {
+        display: block;
+    }
+
+    .contact-right {
+        margin-top: 35px;
+    }
+
+    .subs-left,
+    .subs-right {
+        width: 100%;
+    }
+
+    .subs-right input {
+        width: 65%;
+    }
+
+    .subs-right form {
+        margin-top: 25px;
+    }
+
+    .contact-area {
+        padding: 40px 0;
+    }
+
+    .subscribe-part {
+        margin-top: 60px;
+    }
+
+    
+    .social-icon ul li a {
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    .contact-left {
+        padding: 8px 20px;
+    }
+
+    .contact-item {
+        margin: 25px 0;
+    }
+
+    .subs-left h4 {
+        font-size: 36px;
+    }
+
+    .subs-right input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .contact-right h2 {
+        font-size: 40 px;
+    }
+
+    .subs-left p {
+        font-size: 18px;
+    }
+
+    .contact-right p {
+        font-size: 18px;
+    }
+
+    .subscribe-part {
+        padding: 25px 16px;
+    }
+
+    .subs-right form {
+        display: block;
+    }
+
+    .subs-right button {
+        width: 100%;
     }
 
 
