@@ -55,6 +55,46 @@ Wide Screen - Laptop
         display: none;
     }
 
+    .persp-left h2 {
+        font-size: 36px;
+    }
+
+    .persp-left p {
+        font-size: 17px;
+    }
+
+    .persp-right h2 {
+        font-size: 36px;
+    }
+
+    .persp-right p {
+        font-size: 17px;
+    }
+
+    .review-item {
+        padding: 30px 16px;
+    }
+
+    .review-item h4 {
+        font-size: 19px;
+    }
+
+    .review-item p {
+        font-size: 16px;
+    }
+
+    .review-item h6 {
+        font-size: 18px;
+    }
+
+    .review-item1 h4 {
+        font-size: 44px;
+    }
+
+    .review-area {
+        padding: 20px 0;
+    }
+
     
 
 
@@ -242,6 +282,69 @@ Medium Screen - Others
         font-size: 16px;
     }
 
+    .persp-left h2 {
+        font-size: 27px;
+    }
+
+    .persp-left p {
+        font-size: 15px;
+    }
+
+    .persp-right h2 {
+        font-size: 36px;
+    }
+
+    .persp-right p {
+        font-size: 17px;
+    }
+
+    .persp-left {
+        padding: 30px 20px;
+    }
+
+    .persp-right {
+        padding: 30px 20px;
+    }
+
+    .pers-item {
+        margin: 40px 0;
+    }
+    
+    .pers-item span {
+        font-size: 32px;
+        width: 13.5%;
+        height: 65px;
+    }
+    
+    .pers-cnt {
+        margin-left: 25px;
+        width: 87.5%;
+    }
+    
+    .pers-cnt h4 {
+        font-size: 22px;
+    }
+    
+    .pers-cnt p {
+        font-size: 16px;
+    }
+    
+    .prs2-itm {
+        margin-left: -50px;
+    }
+
+    .persmain-right {
+        padding-left: 50px;
+    }
+
+    .review-area {
+        padding: 20px 0;
+    }
+
+    .review-item {
+        margin: 15px 0;
+    }
+
    
 
 
@@ -418,8 +521,58 @@ Small Screen - Tablate
 
     .static-upper p br {
         display: none;
-
     }
+
+    .persp-left h2 {
+        font-size: 36px;
+    }
+
+    .persp-left p {
+        font-size: 16px;
+    }
+
+    .persp-right h2 {
+        font-size: 36px;
+    }
+
+    .persp-right p {
+        font-size: 17px;
+    }
+
+    .persp-right {
+        margin-top: 30px;
+    }
+
+    .persp-right a {
+        margin-top: 20px;
+    }
+
+    .persp-area {
+        padding: 0;
+    }
+
+    .pers-item {
+        margin: 30px 0;
+    }
+
+    .prs2-itm {
+        margin-left: 0;
+    }
+
+    .persmain-right {
+        padding-top: 50px;
+    }
+
+    .review-area {
+        padding: 50px 0;
+    }
+
+    .review-item {
+        margin: 15px 0;
+    }
+
+
+    
 
 
 
@@ -636,6 +789,88 @@ Small Screen - Mobile
     .deposit-item {
         margin-left: 0;
         margin-top: 35px;
+    }
+
+    .persp-left h2 {
+        font-size: 26px;
+    }
+
+    .persp-left p,
+    .persp-left .italic {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .persp-right h2 {
+        font-size: 32px;
+    }
+
+    .persp-right p {
+        font-size: 17px;
+        margin: 20px 0;
+    }
+
+    .persp-right a {
+        margin-top: 16px;
+    }
+
+    .persp-left {
+        padding: 30px 18px;
+    }
+
+    .persp-right {
+        padding: 30px 20px;
+    }
+
+    .persp-area {
+        padding: 0;
+    }
+
+    .static-area {
+        padding-bottom: 60px;
+    }
+
+    .pers-item {
+        margin: 25px 0;
+    }
+
+    .prs2-itm {
+        margin-left: 0;
+    }
+
+    .persmain-right {
+        padding-top: 32px;
+    }
+
+    .pers-item span {
+        font-size: 30px;
+        width: 70px;
+        height: 60px;
+    }
+    
+    .pers-cnt {
+        margin-left: 20px;
+        width: 82%;
+    }
+    
+    .pers-cnt h4 {
+        font-size: 22px;
+    }
+    
+    .pers-cnt p {
+        font-size: 15px;
+    }
+
+    .review-area {
+        padding: 50px 0;
+    }
+
+    .review-item {
+        margin: 15px 0;
+    }
+
+    .review-item1 {
+        margin-bottom: 20px;
     }
 
 

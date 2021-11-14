@@ -900,3 +900,199 @@ static-area start
     top: 0;
     right: -38%;
 }
+
+/*===================
+persp-area start 
+=====================*/
+.persp-area {
+    padding: 20px 0;
+}
+
+.persp-left {
+    background: #FCFBFF;
+    padding: 40px 25px;
+    border: 2px solid #FFF;
+    border-radius: 15px;
+}
+
+.persp-left h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+}
+
+.persp-left p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #747080;
+    text-align: center;
+    margin: 30px 0 0;
+}
+
+.persp-left .italic {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    font-style: italic;
+    text-align: center;
+}
+
+.persp-right {
+    background: linear-gradient(to bottom, #6F47FF, #633FE8);
+    padding: 40px 40px;
+    border-radius: 12px;
+}
+
+.persp-right h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.persp-right p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 25px 0;
+}
+
+.persp-right a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.persp-right a i {
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.persp-main {
+    padding-top: 75px;
+}
+
+.persmain-left img {
+    max-width: 100%;
+}
+
+.pers-item {
+    max-width: 670px;
+    background: #FCFBFF;
+    border: 2px solid #FFF;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 20px;
+    margin: 70px 0;
+    margin-left: auto;
+    border-radius: 15px;
+}
+
+.pers-item span {
+    font-size: 35px;
+    color: #6F47FF;
+    width: 13%;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.pers-cnt {
+    margin-left: 28px;
+    width: 87%;
+}
+
+.pers-cnt h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.pers-cnt p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #747080;
+    margin-bottom: 0;
+}
+
+.prs2-itm {
+    margin-left: 50px;
+}
+
+/*=====================
+review-area start 
+=======================*/
+.review-area {
+    padding: 60px 0;
+}
+
+.review-item1 h4 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.review-item1 p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #747080;
+}
+
+.review-item1 a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #6F47FF;
+    display: inline-block;
+    padding: 13px 24px;
+    margin-top: 55px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px #E2DAFF;
+}
+
+.review-item1 a i {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+.review-item1 a:hover {
+    opacity: 0.9;;
+}
+
+.review-item {
+    background: #FCFBFF;
+    border: 2px solid #FFF;
+    padding: 40px 24px;
+    border-radius: 18px;
+}
+
+.review-item h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.review-item p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #747080;
+    margin-bottom: 0;
+}
+
+.review-item h6 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px 0 0;
+}
+
